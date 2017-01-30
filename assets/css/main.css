@@ -1,0 +1,298 @@
+/* 
+==============================================
+CONTENT:	Week 3 Homework
+AUTHOR:		Hannah West
+==============================================
+
+TABLE OF CONTENTS:
+
+1. Main Layout
+2. Content
+
+==============================================
+*/
+/* 1. Main Layout ================================= */
+
+html,body {
+  background: grey;
+  width: 100%;
+  height: 100%;
+}
+
+.a {
+  background: yellow;
+}
+
+.b {
+  background: red;
+}
+
+.c {
+  background: blue;
+}
+
+.d {
+  background: yellow;
+}
+
+.e {
+  background: red;
+}
+
+.f {
+  background: blue;
+}
+
+.g {
+  background: blue;
+}
+
+.h {
+  background: yellow;
+}
+
+.i {
+  background: red;
+}
+
+.j {
+  background: green;
+}
+
+.k {
+  background: blue;
+}
+
+.l {
+  background: yellow;
+}
+
+.m {
+  background: red;
+}
+
+.n {
+  background: green;
+}
+
+/* SMALL LAYOUT ONE */
+
+@media screen and (min-width: 0px){
+
+  .a {
+    height: 20%;
+    width: 100%;
+  }
+
+  .b,.c {
+    height: 40%;
+    width: 100%
+  }
+
+}
+
+
+/* MEDIUM  LAYOUT ONE */
+
+
+@media screen and (min-width: 767px) {
+
+  .b, .c {
+    width: 50%;
+    height: 80%;
+    float: left;
+  }
+
+}
+
+
+/* LARGE  LAYOUT ONE */
+
+@media screen and (min-width: 1024px) {
+
+  .b {
+    width: 33.33%;
+    height: 80%;
+    float: left;
+  }
+
+  .c {
+    width: 66.66%;
+    height: 80%;
+    float: left;
+  }
+
+}
+
+
+/* SMALL LAYOUT TWO */
+
+@media screen and (min-width: 0px){
+
+  .d {
+    height: 50%;
+    width: 100%;
+  }
+
+  .e, .f {
+    height: 50%;
+    width: 50%;
+    float: left;
+  }
+
+}
+
+
+/* MEDIUM  LAYOUT TWO */
+
+
+@media screen and (min-width: 767px) {
+
+  .d {
+    height: 100%;
+    width: 50%;
+    float: left;
+  }
+
+  .e, .f {
+    width: 50%;
+    height: 50%;
+  }
+
+}
+
+
+/* LARGE  LAYOUT TWO */
+
+@media screen and (min-width: 1024px) {
+
+  .d {
+    width: 33.33%;
+    height: 50%;
+    float: left;
+  }
+
+  .e {
+    width: 66.66%;
+    height: 50%;
+    float: left;
+  }
+
+  .f {
+    width: 100%;
+    height: 50%;
+  }
+
+}
+
+/* SMALL LAYOUT THREE */
+
+@media screen and (min-width: 0px){
+
+  .g, .h, .i, .j {
+    height: 50%;
+    width: 50%;
+    float: left;
+  }
+
+}
+
+
+/* MEDIUM  LAYOUT THREE */
+
+
+@media screen and (min-width: 767px) {
+
+   .g {
+    height: 50%;
+    width: 100%;
+  }
+
+  .h, .i, .j {
+    height: 50%;
+    width: 33.33%;
+    float: left;
+  }
+
+}
+
+
+/* LARGE  LAYOUT THREE */
+
+@media screen and (min-width: 1024px) {
+
+  .g, .h, .i, .j {
+    height: 100%;
+    width: 25%;
+    float: left;
+  }
+
+}
+
+
+/* SMALL LAYOUT FOUR */
+
+@media screen and (min-width: 0px){
+
+  .k {
+    width: 33.33%;
+    height: 100%;
+    float: left;
+  }
+
+  .l, .m, .n {
+    height: 33.33%;
+    width:100%; 
+  }
+
+}
+
+
+/* MEDIUM  LAYOUT FOUR */
+
+
+@media screen and (min-width: 767px) {
+
+   .k {
+    height: 50%;
+    width: 25%;
+  }
+
+  .l {
+     height: 50%;
+     width: 75%;
+     float: left;
+    }
+
+  .m, .n {
+    height: 50%;
+    width: 50%;
+    float: left;
+  }
+
+}
+
+
+/* LARGE  LAYOUT FOUR */
+
+@media screen and (min-width: 1024px) {
+
+   .k, .n {
+    height: 50%;
+    width: 33.33%;
+  }
+
+  .l, .m {
+     height: 50%;
+     width: 66.66%;
+     float: left;
+    }
+
+
+}
+
+
+
+
+
+
